@@ -1,0 +1,229 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Monsarrat', sans-serif;
+    color: #304041;
+    letter-spacing: 0.05em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 18px 0;
+    border-radius: 119px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    display: block;
+    width: 247px;
+}
+
+/* Header */
+
+.header {
+    background: linear-gradient(180deg, rgba(121, 181, 196, 0) 1.39%, rgba(19, 75, 85, 0.26) 44.44%), url(./img/Rectangle\ 1.jpg) no-repeat center top / cover;
+    text-align: center;
+    padding: 90px 0 80px;
+    color: #fff;
+}
+
+.logo  {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 201px;
+}
+
+.offer-citi {
+    font-size: 15px;
+    font-weight: 800;
+    background: #fff;
+    border-radius: 78px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 8px 17px;
+}
+
+.offer__title {
+    font-size: 60px;
+    letter-spacing: .145em;
+    margin: 24px 0 ;
+}
+
+.offer__text {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    margin-bottom: 24px;
+}
+
+.offer__btn {
+    margin: 0 auto;
+    box-shadow: 5px 5px 25px -5px #000;
+    color: #fff;
+    background: #23CF7D;
+    transition: all 0.5s ease;
+}
+
+.offer__btn:hover {
+    background: rgb(122, 18, 143);
+}
+
+.arrow-down {
+    display: block;
+    background: url('img/arrow-down.svg');
+    width: 18px;
+    height: 27px;
+    margin: 217px auto 0;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.arrow-down:hover{
+    opacity: 1;
+}
+
+/* section routs */
+
+.routes__title {
+    font-size: 30px;
+    margin: 143px 0 100px;
+}
+
+.routes-info {
+    background: #EAF4F7 url('img/prague-photo-2.png') no-repeat right top/45%;
+    padding: 112px 78px;
+    filter: drop-shadow(0px 25px 70px rgba(4, 43, 55, 0.28));
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.routes-info__num {
+    display: block;
+    color: #789AA0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.routes-info__title {
+    font-size: 24px;
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+.routes-info__text {
+    width: 500px;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 1.52em;
+    margin-bottom: 45px;
+}
+
+.routes-info__errow-next {
+    transition: all 0.5s ease;
+}
+
+.routes-info__errow-next:hover {
+    padding-left: 20px;
+}
+
+.routes__btn-ghoust {
+    margin: 90px  auto 146px;
+    border: 1px solid #23CF7D;
+    color: #23CF7D;
+    width: 332px;
+    text-align: center;
+
+    transition: all 0.5s ease;
+}
+
+.routes__btn-ghoust:hover {
+    background: #23CF7D;
+    color: #fff;
+}
+
+
+/* section opportunities */
+
+.opportunities__title {
+    font-size: 30px;
+    margin-bottom: 93px;
+}
+
+.opportunities {
+    background: url('img/photo-prague.jpg') no-repeat right top/50%;
+    height: 600px;
+}
+
+.opportunities__item {
+    font-size: 16px;
+    width: 407px;
+    letter-spacing: 0.05em;
+    margin-bottom: 61px;
+    position: relative;
+}
+
+.opportunities__item::before {
+    display: block;
+    content: '';
+    background: #4EB1B6;
+    width: 65px;
+    height: 7px;
+    border-radius: 23px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.container__full-height {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* footer */
+
+.footer__wrapper {
+    display: flex;
+}
+
+.footer__text {
+    margin-right: 60px;
+    color: #5C7677;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.footer {
+    padding: 100px 0;
+}
